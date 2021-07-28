@@ -35,14 +35,14 @@ payidar.add_command(label="Menüden Defol",command=menuexit)
 
 payidar_menu.add_cascade(label="Sosyal Medya", menu=payidar)
 
-ortalama = Menu(payidar_menu,tearoff=0)
-ortalama.add_command(label="XD",command=fonksiyon)
-ortalama.add_command(label="XD2",command=fonksiyon_2)
-ortalama.add_command(label="XD3",command=fonksiyon_3)
-ortalama.add_separator()
-ortalama.add_command(label="XXX",command=menuexit)
+# ortalama = Menu(payidar_menu,tearoff=0)
+# ortalama.add_command(label="XD",command=fonksiyon)
+# ortalama.add_command(label="XD2",command=fonksiyon_2)
+# ortalama.add_command(label="XD3",command=fonksiyon_3)
+# ortalama.add_separator()
+# ortalama.add_command(label="XXX",command=menuexit)
 
-payidar_menu.add_cascade(label="Düzen", menu=ortalama)
+# payidar_menu.add_cascade(label="Düzen", menu=ortalama)
 
 pencere.config(menu=payidar_menu)
 pencere.mainloop()
