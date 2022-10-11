@@ -15,7 +15,7 @@ pencere.geometry("500x250")
 
 # Def
 def fonksiyon():
-    yazi = Label(pencere, text="https://instagram.com/06.kadirx").pack()
+    yazi = Label(pencere, text="https://instagram.com/kadir.sql").pack()
 def fonksiyon_2():
     yazi = Label(pencere, text="https://discord.gg/PhPEsF8qYE").pack()
 def fonksiyon_3():
